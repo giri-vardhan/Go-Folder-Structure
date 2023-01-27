@@ -8,8 +8,8 @@ create TABLE IF NOT EXISTS post (
 );
 CREATE TABLE IF NOT EXISTS comments
 (
-    commentId serial primary key,
-    comment_post_id serial ,
+    commentID varchar primary key,
+    comment_post_id varchar ,
     CommentedUser varchar ,
     commentTime varchar ,
     CommentDescription varchar ,

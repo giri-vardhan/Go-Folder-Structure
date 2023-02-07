@@ -3,8 +3,8 @@
  the project that you think would be helpful for other developers/user
 2. Create ".env" file, where we will keep all environment related constants, like database username,
 password, secret key of jwt if any, etc
-3. Create the "main.go" file in root, this will serve as yhe project/web-server entry point
-4. Create a "Makefile" this will contain some basic commands to run the project
+3. Create the "main.go" file in root, this will serve as the project/web-server entry point.
+4. Create a "Makefile" this will contain some basic commands to run the project.
 5. Create these folders:
      
      1. Controllers: contains controller that accepts a request and call a particular service to process it
